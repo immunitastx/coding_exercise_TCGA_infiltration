@@ -24,3 +24,6 @@ The two files you need are in the Cellular Fraction Estimates section.
 ### Step 3 data visualization
 
 
+Use a notebook either with Rmarkdown or Jupyter notebook document how you performed the analysis.
+
+
