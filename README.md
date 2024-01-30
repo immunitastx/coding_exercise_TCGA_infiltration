@@ -6,6 +6,8 @@ The questions is explore the immune infiltration differences between different E
 Specifically, you need to compare the different immune cell abundance in EGFR wild type, Exon20 insertion mutation
 and Exon19 deletion mutation, pL855R mutation and other misssense mutations.
 
+Helpful links: TCGA barcode system https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/
+
 ### Step 1 Download the immune infiltration data estimated by CIBERsort using RNAseq data
 
 Go to https://gdc.cancer.gov/about-data/publications/panimmune
