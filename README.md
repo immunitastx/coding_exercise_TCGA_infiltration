@@ -18,13 +18,13 @@ Go to https://gdc.cancer.gov/about-data/publications/panimmune
 
 The two files you need are in the Cellular Fraction Estimates section.
 
-* Leukocyte Fraction - TCGA_all_leuk_estimate.masked.20170107.tsv
-* CIBERSORT immune fractions - TCGA.Kallisto.fullIDs.cibersort.relative.tsv
+* Leukocyte Fraction - `TCGA_all_leuk_estimate.masked.20170107.tsv`
+* CIBERSORT immune fractions - `TCGA.Kallisto.fullIDs.cibersort.relative.tsv`
 
-1. demonstrate that TCGA.Kallisto.fullIDs.cibersort.relative.tsv is relative immune cell abundance (Hint, all the immune cell type fractions sum up to 1)
-2. calculate the absolute immune infiltration by using the `Leukocyte Fraction` using TCGA_all_leuk_estimate.masked.20170107.tsv
+1. demonstrate that `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` is relative immune cell abundance (Hint, all the immune cell type fractions sum up to 1)
+2. calculate the absolute immune infiltration by using the `Leukocyte Fraction` using `TCGA_all_leuk_estimate.masked.20170107.tsv`.
    
-* make sure you explore the two data tables understand the TCGA barcode.
+* make sure you explore the two data tables to understand the TCGA barcode.
 * There are some duplicated rows in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` file, make sure you spot them.
 
 3. group similar immune cell types together and calculate the absolute immune infiltration for  B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs, Mast, Eosinophils and  Neutrophils
