@@ -29,7 +29,9 @@ You can also download from this github repository.
 * There are some duplicated rows in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` file, make sure you spot them.
 
 3. group similar immune cell types together and calculate the absolute immune infiltration for  B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs, Mast, Eosinophils and  Neutrophils
+
 4. plot the immune infiltration of T cells across all cancer types in a boxplot and order the box by the median level of T cell infiltration from high to low.
+
 5. Get the median level of immune infiltration of B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs, Mast and Eosinophils per cancer type and plot them in a heatmap
 
 ### Step 2 Get the mutation data 
@@ -41,6 +43,6 @@ Now, use the mutation data to stratify the patients in the `TCGA.Kallisto.fullID
 
 plot the absolute infiltration level for B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs across different EGFR mutants for LUAD.
 
-Use a notebook either with Rmarkdown or Jupyter notebook document how you performed the analysis.
+Use a notebook either with Rmarkdown or Jupyter notebook; document how you performed the analysis.
 
 
