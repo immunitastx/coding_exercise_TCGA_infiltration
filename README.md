@@ -24,8 +24,9 @@ You can also download from this github repository.
 
 1. demonstrate that `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` is relative immune cell abundance (Hint, all the immune cell type fractions sum up to 1)
 2. calculate the absolute immune infiltration by using the `Leukocyte Fraction` using `TCGA_all_leuk_estimate.masked.20170107.tsv`.
+when joining the two tables:
    
-* make sure you explore the two data tables to understand the TCGA barcode.
+* make sure you explore the two data tables to understand the TCGA barcode and identify the unique keys to combine the two datasets.
 * There are some duplicated rows in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` file, make sure you spot them.
 
 3. group similar immune cell types together and calculate the absolute immune infiltration for  B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs, Mast, Eosinophils and  Neutrophils
