@@ -20,6 +20,7 @@ The two files you need are in the Cellular Fraction Estimates section.
 
 * Leukocyte Fraction - `TCGA_all_leuk_estimate.masked.20170107.tsv`
 * CIBERSORT immune fractions - `TCGA.Kallisto.fullIDs.cibersort.relative.tsv`
+You can also download from this github repository.
 
 1. demonstrate that `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` is relative immune cell abundance (Hint, all the immune cell type fractions sum up to 1)
 2. calculate the absolute immune infiltration by using the `Leukocyte Fraction` using `TCGA_all_leuk_estimate.masked.20170107.tsv`.
