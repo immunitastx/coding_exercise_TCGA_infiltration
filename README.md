@@ -1,16 +1,19 @@
 # coding exercise using TCGA immune infiltration data
 
+### Overview
 The Cancer Genome Atlas (TCGA) project is probably one of the most well-known large-scale cancer sequencing project. 
 It sequenced ~10,000 treatment-naive tumors across 33 cancer types. Different data including whole-exome, whole-genome, copy-number (SNP array), 
 bulk RNAseq, protein expression (Reverse-Phase Protein Array), DNA methylation are available.
 
-The task is to explore the immune infiltration differences between different EGFR mutants and wild type samples.
-Specifically, you need to compare the different immune cell abundance in EGFR wild type, Exon20 insertion mutation
-and Exon19 deletion mutation, pL855R mutation and other misssense mutations.
-
 Helpful links: 
 * TCGA barcode system https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/
 * TCGA code table report: https://gdc.cancer.gov/resources-tcga-users/tcga-code-tables
+  
+### Task
+
+The task is to explore the immune infiltration differences between different EGFR mutants and wild type samples.
+Specifically, you need to compare the different immune cell abundance in EGFR wild type, Exon20 insertion mutation
+and Exon19 deletion mutation, pL855R mutation and other misssense mutations.
 
 ### Step 1 Download the immune infiltration data estimated by CIBERsort using RNAseq data
 
@@ -48,4 +51,6 @@ plot the absolute infiltration level for B_cells, T_cells, NK_cells, Monocytes, 
 
 Use a notebook either with Rmarkdown or Jupyter notebook; document how you performed the analysis.
 
+### Time to completion
 
+It may take you 1-2 days for this task depending on your coding experiences and familarity with the genomics data.
