@@ -39,6 +39,8 @@ You can also download from this github repository.
 Download the mutation data for LUAD (lung adenocarcinoma) from TCGA. (you choose a resource that you want to get this information).
 Now, use the mutation data to stratify the patients in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` based on the EGFR mutation status: EGFR wildtype, Exon20 insertion mutation, Exon19 deletion mutation, pL855R mutation and other misssense mutations.
 
+Note the mutation file may not tell you the exon number for the mutations. You will need to cross check the mutation position (chr, start, end) with the gene model anntoation (e.g., gtf file).
+
 ### Step 3 data visualization
 
 plot the absolute infiltration level for B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs across different EGFR mutants for LUAD.
