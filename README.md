@@ -13,7 +13,7 @@ Helpful links:
 
 The task is to explore the immune infiltration differences between different EGFR mutants and wild type samples.
 Specifically, you need to compare the different immune cell abundance in EGFR wild type, Exon20 insertion mutation
-and Exon19 deletion mutation, pL855R mutation and other misssense mutations.
+and Exon19 deletion mutation, pL858R mutation and other misssense mutations.
 
 ### Step 1 Download the immune infiltration data estimated by CIBERsort using RNAseq data
 
@@ -41,7 +41,7 @@ when joining the two tables:
 ### Step 2 Get the mutation data 
 
 Download the mutation data for LUAD (lung adenocarcinoma) from TCGA. (you choose a resource that you want to get this information).
-Now, use the mutation data to stratify the patients in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` based on the EGFR mutation status: EGFR wildtype, Exon20 insertion mutation, Exon19 deletion mutation, pL855R mutation and other misssense mutations.
+Now, use the mutation data to stratify the patients in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` based on the EGFR mutation status: EGFR wildtype, Exon20 insertion mutation, Exon19 deletion mutation, pL858R mutation and other misssense mutations.
 
 Note the mutation file may not tell you the exon number for the mutations. You will need to cross check the mutation position (chr, start, end) with the gene model anntoation (e.g., gtf file).
 
