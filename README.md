@@ -31,6 +31,7 @@ when joining the two tables:
    
 * make sure you explore the two data tables to understand the TCGA barcode and identify the unique keys to combine the two datasets.
 * There are some duplicated rows in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` file, make sure you spot them.
+* There are multiple aliquots from the same samples.
 
 3. group similar immune cell types together and calculate the absolute immune infiltration for  B_cells, T_cells, NK_cells, Monocytes, Macrophages, DCs, Mast, Eosinophils and  Neutrophils
 
@@ -43,7 +44,7 @@ when joining the two tables:
 Download the mutation data for LUAD (lung adenocarcinoma) from TCGA. (you choose a resource that you want to get this information).
 Now, use the mutation data to stratify the patients in the `TCGA.Kallisto.fullIDs.cibersort.relative.tsv` based on the EGFR mutation status: EGFR wildtype, Exon20 insertion mutation, Exon19 deletion mutation, pL858R mutation and other misssense mutations.
 
-Note the mutation file may not tell you the exon number for the mutations. You will need to cross check the mutation position (chr, start, end) with the gene model anntoation (e.g., gtf file).
+Note the mutation file may not tell you the exon number for the mutations. You will need to cross check the mutation position (chr, start, end) with the gene model anntoation (e.g., gtf file). The same tumor sample may also have multiple EGFR mutations.
 
 ### Step 3 data visualization
 
